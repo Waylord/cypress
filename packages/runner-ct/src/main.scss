@@ -1,0 +1,30 @@
+.specs-list{
+    font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    header{
+        height: 46px;
+        padding: 0 12px;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #DDD;
+        color: #999999;
+    }
+    ul{
+        padding: 10px 0px;
+        color: #555555;
+    }
+    li {
+        padding: 5px 7px 5px 10px;
+        cursor: pointer;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        border-left: 4px solid transparent;
+    }
+    
+}
+
+.specs-list .specs-list-item__active{
+    border-left-color: #555555;
+    background-color: #EBEBEB;
+}
